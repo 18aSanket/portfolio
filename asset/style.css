@@ -179,7 +179,7 @@ font-size: 30px;
 
   text-align: center;
   position: relative;
-  font-size: 13px;
+  font-size: 15px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
   color: #00FF00;
@@ -188,7 +188,7 @@ font-size: 30px;
 .hovereffect a.info {
   display: inline-block;
   text-decoration: none;
-  padding: 5px 20px;
+  padding: 0px 10px;
   border: 1px solid #00FF00;
   margin: 50px 0 0 0;
   border-radius: 100px;
@@ -227,13 +227,23 @@ font-size: 30px;
   }
 
  h1{
+  font-size: 50px;
+  margin: 20px 0px;
  }
  #myself{
-  padding: 10% 0%;
+  padding: 20% 0%;
  }
 #skills{
   bottom: 0px;
   top:3%;
+}
+
+#skills .col-md-6{
+border: none!important;
+}
+
+.form-group{
+  margin-bottom: 4rem;
 }
 
 }

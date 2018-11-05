@@ -36,7 +36,6 @@
     <br>
     <br>
     <br>
-    <br>
     
         <h1 class="mycolor">Web Designer / Web Developer</h1>
         <br>
@@ -49,10 +48,10 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
+        
+       
 
-        <img src="asset/img/hero.png" class="img-fluid" >
+        
 
 
 
@@ -82,7 +81,7 @@
         <br>
 
         <div class="row">
-            <div class="col-md-6" style="border-right: 1px solid #00FF00">
+            <div class="col-md-6 form-group" style="border-right: 1px solid #00FF00">
                 <h3 class="text-center mycolor">Strong Knowlage</h3>
                 <br>
                 <h5 class="text-left">HTML</h5>
@@ -141,7 +140,7 @@
 
 
             </div>
-            <div class="col-md-6" style="border-left: 1px solid #00FF00">
+            <div class="col-md-6 form-group" style="border-left: 1px solid #00FF00">
                 <h3 class="text-center mycolor">Basic Knowlage</h3>
                 <br>
                 <h5 class="text-left">Illustrator</h5>
@@ -215,12 +214,16 @@
         <br>
         <p class="text-white h5">My career has taken a natural progression from client websites, to template clubs, to UI templates, to UX design, to complex analytical UX design.</p>
         <br>
+        <p class="text-white">Click on Heading to view all.</p>
+        <br>
         <br>
         
 <div class="row">
 
      <div class="col-md-6 form-group">
-        <h4 class="form-group text-white">- Graphics -</h4>
+     
+ <figcaption ><a href="#" class="h4 text-white">- Graphics -</a></figcaption>
+
         <section class="gallery-block compact-gallery">
  
 
@@ -258,8 +261,8 @@
 
 </div>
         <div class="col-md-6 form-group">
-            <h4 class="form-group text-white">- Websites -</h4>
-        <div class="row" style="height: 270px;overflow-y: scroll;">
+         <figcaption ><a href="#" class="h4 text-white">- Websites -</a></figcaption> 
+        <div class="row" style="height: 260px;overflow-y: scroll;">
 
             <div class="col-md-6 form-group">
                 <div class="hovereffect">
@@ -303,6 +306,7 @@
                 <div class="hovereffect">
                     <img class="img-fluid" src="asset/img/website/bizrock.png" >
                     <div class="overlay">
+
                         <h2>www.bizrock.co.in</h2>
                         <a class="info mybtn" href="http://bizrock.co.in/">View</a>
                     </div>
@@ -342,8 +346,7 @@
     </div>
 </div>
 <br>
-<br>
-<h4 class="form-group text-white">- Cool Stuff -</h4>
+ <figcaption ><a href="#" class="h4 text-white">- Cool Stuff -</a></figcaption>
                     <div class="owl-carousel" >
                         <div class="row">
 <div class="col-md-3 d-3"></div>
@@ -361,11 +364,16 @@
                 <br>
                 <br>
 <!-- ------------------------------------------------------------------- -->
-
+<img src="asset/img/hero.png" class="img-fluid" >
                 <div class="text-center text-white mybg" id="contact">
 
+
                     <br>
+
                     <div class="container">
+
+  <br>
+    <br>
                         <img src="asset/img/logo.png" class="img-fluid" width="100">
                         <br>
                         <br>
@@ -381,7 +389,7 @@
                                 <i class="fab fa-instagram" title="Instagram"></i>
                             </div>
                             <div class="col-md-6">
-                                <h6 style="margin-top: 25px;">Design & Develop By <a href="#">Sanket S. Agre</a></h6>
+                                <h5 style="margin-top: 25px;">Design & Developed By <a href="#" class="text-white">Sanket S. Agre.</a></h5>
                             </div>
                         </div>
                     </div>
