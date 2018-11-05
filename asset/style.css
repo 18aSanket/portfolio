@@ -1,0 +1,239 @@
+@font-face { font-family: Notera Personal; src: url('myfont2.ttf'); } 
+@font-face { font-family: beauty; src: url('myfont.ttf'); } 
+@font-face { font-family: Quarion-Light; src: url('font.ttf'); } 
+@font-face { font-family: Lato; src: url('Lato.ttf'); } 
+
+
+
+br{
+	clear: both;
+}
+.mycolor{
+color:#00FF00;
+}
+
+.mybg{
+
+background: url('img/bg.jpg');
+background-size: cover;
+background-attachment: fixed;
+
+
+
+}
+
+
+
+
+/* width */
+.row::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.row::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 100px;
+}
+ 
+/* Handle */
+.row::-webkit-scrollbar-thumb {
+    background: #00FF00; 
+    border-radius: 100px;
+}
+
+
+
+
+
+
+#myself
+{
+padding: 10% 22%;
+font-family: Lato;
+color:white;
+text-align: center;
+padding-bottom:18%; 
+}
+
+#skills{
+	background: black;
+	position: relative;
+	bottom: 150px;
+	border-radius: 30px;
+	border:2px solid #00FF00;
+	padding: 4%;
+	color:white;
+}
+
+
+.mybtn{
+background: linear-gradient(to right, #00FF00 50%, black 50%);
+border: 2px solid #00FF00;
+background-size: 200%;
+background-position: right;
+transition: all 1s;
+border-radius:50px;
+padding: 10px 40px;
+font-weight: bold;
+color:#00FF00;
+cursor: pointer;
+outline:0;
+
+
+
+}
+.mybtn:hover{
+background-position: left;
+color:black;
+font-weight: bold;
+
+}
+body{
+font-family: Quarion-Light;
+background: black;
+height: 100vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,h1, h2, h3, h4, h5, h6,label{
+margin: 0;
+padding: 0;
+font-weight: bold;
+
+}
+.myname{
+font-family: beauty;
+font-size:100px;
+margin-left: 3%;
+}
+
+
+
+a:hover{
+	text-decoration: none;
+	color:black;
+}
+
+
+.progress-bar{
+	text-align: right;
+	padding-right: 10px; 
+	border-radius: 100px;
+	color:white;
+	font-weight: bold;
+	background: red;
+	
+}
+.progress{
+	border-radius: 100px;
+}
+
+
+#contact i{
+color:white;
+margin: 20px 18px;
+font-size: 30px;
+
+}
+
+
+
+
+/*image hover*/
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect h2 {
+
+  text-align: center;
+  position: relative;
+  font-size: 13px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #00FF00;
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid #00FF00;
+  margin: 50px 0 0 0;
+  border-radius: 100px;
+  font-size: 13px;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px black;
+}
+
+.hovereffect a.info, .hovereffect h2 {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /*text-transform: uppercase;*/
+}
+
+.hovereffect:hover a.info, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/*image hover end ----------*/
+
+
+@media  (max-width: 768px) {
+  #home img,input{
+    float: none !important;
+  }
+
+ h1{
+ }
+ #myself{
+  padding: 10% 0%;
+ }
+#skills{
+  bottom: 0px;
+  top:3%;
+}
+
+}
