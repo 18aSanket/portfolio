@@ -37,6 +37,7 @@
 .gallery-block.compact-gallery .item .description{
   display: grid;
     position: absolute;
+    top:0;
     bottom: 0;
     left: 0;
     color: #fff;
@@ -51,7 +52,9 @@
     transition: 0.8s ease;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
+    background: black;
+    align-items: center;
+    justify-content: center;
 }
 
 .gallery-block.compact-gallery .item .description .description-heading{

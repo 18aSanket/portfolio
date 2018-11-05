@@ -1,3 +1,24 @@
+<?php 
+$user="1";
+$pass="1";
+
+if (isset($_POST['btn'])) {
+	$username=$_POST['user'];
+	$password=$_POST['pass'];
+
+if ($user == $username && $password==$pass) {
+	
+header("location:home.php");
+
+}else{
+header("location:index.php");
+
+}
+
+}
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,20 +36,12 @@
 <body>
 
 <div class="wrapper">
-	
-		
+		<form action="" method="post">
 		<h3 class="mb-4 myname text-center">L o g I n</h3>
-	
-		<input type="text" class="form-control mt-4" placeholder="Enter User Name here..." name="">
-		
-		<div class="hidden">You Enter Wrong UserName...</div>
-
-		<input type="text" class="form-control mt-4" placeholder="Enter Password here..." name="">
-		<div class="hidden">You Enter Wrong Password...</div>
-
-		
-			
-		<center><input type="submit" class="btn btn-danger mt-4"  name=""></center>
+		<input type="text" class="form-control mt-4" placeholder="Enter User Name here..." name="user">
+		<input type="password" class="form-control mt-4" placeholder="Enter Password here..." name="pass">
+		<center><input type="submit" class="btn btn-success mt-4"  name="btn"></center>
+		</form>
 	</div>
 	
 	
@@ -72,3 +85,5 @@ label,h4{
 }
 
 </style>
+
+
