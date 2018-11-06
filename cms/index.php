@@ -7,9 +7,9 @@ if (isset($_POST['btn'])) {
 	$password=$_POST['pass'];
 
 if ($user == $username && $password==$pass) {
-	
+session_start();
+$_SESSION['user']=array($user);
 header("location:home.php");
-
 }else{
 header("location:index.php");
 
@@ -37,10 +37,10 @@ header("location:index.php");
 
 <div class="wrapper">
 		<form action="" method="post">
-		<h3 class="mb-4 myname text-center">L o g I n</h3>
+		<h3 class="mb-4 myname mycolor text-center">L o g I n</h3>
 		<input type="text" class="form-control mt-4" placeholder="Enter User Name here..." name="user">
 		<input type="password" class="form-control mt-4" placeholder="Enter Password here..." name="pass">
-		<center><input type="submit" class="btn btn-success mt-4"  name="btn"></center>
+		<center><input type="submit" class="mybtn mt-4"  name="btn"></center>
 		</form>
 	</div>
 	
@@ -55,11 +55,10 @@ header("location:index.php");
 </html>
 <style type="text/css">
 body{
-background: linear-gradient(to right, #dc3545 , #751675);
+background: black;
 height: 100vh;
 background-size: cover;
 background-position: center;
-font-family: "Poppins", sans-serif;
 display: flex;
 align-items: center;
 flex-direction: column; 
@@ -74,9 +73,7 @@ border-radius: 10px;
 label,h4{
 	font-weight: bold;
 }
-.text-center{
-	color:white;
-}
+
 
 .hidden{
 	visibility: hidden;
@@ -84,6 +81,12 @@ label,h4{
 	color:white;
 }
 
+
+
+.mycolor:hover{
+	color:white;
+	transition: 1s all;
+}
 </style>
 
 

@@ -28,7 +28,7 @@
     <div class="container text-center" id="home">
         <div class="row">	
             <div class="col-md-6">	
-                <img src="asset/img/logo.png" width="100px" class="img-fluid" style="float:left"></div>
+                <img src="asset/img/logo.PNG" width="100px" class="img-fluid" style="float:left"></div>
                 <div class="col-md-6">	
                     <input type="button" class="mybtn" data-toggle="modal" data-target="#myModal" style="float: right;margin-top: 30px;" value="Say Hello"></div>
                 </div>
@@ -43,7 +43,7 @@
                 <br>
                 <br>
 
-                <img src="asset/img/coder.png" class="img-fluid" width="400px">
+                <img src="asset/img/coder.PNG" class="img-fluid" width="400px">
                 <br>
                 <br>
                 <br>
@@ -229,8 +229,8 @@
 
                                 <div class="owl-carousel" >
                                     <div class="item zoom-on-hover">
-                                        <a class="lightbox" href="asset/img/website/bizrock.png">
-                                            <img class="img-fluid image" src="asset/img/website/bizrock.png">
+                                        <a class="lightbox" href="asset/img/website/bizrock.PNG">
+                                            <img class="img-fluid image" src="asset/img/website/bizrock.PNG">
                                             <span class="description">
                                                 <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -242,8 +242,8 @@
                                         </a>
                                     </div>
                                     <div class="item zoom-on-hover">
-                                        <a class="lightbox" href="asset/img/website/bizrock.png">
-                                            <img class="img-fluid image" src="asset/img/website/bizrock.png">
+                                        <a class="lightbox" href="asset/img/website/bizrock.PNG">
+                                            <img class="img-fluid image" src="asset/img/website/bizrock.PNG">
                                             <span class="description">
                                                 <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -256,8 +256,8 @@
                                     </div>
 
                                     <div class="item zoom-on-hover">
-                                        <a class="lightbox" href="asset/img/website/bizrock.png">
-                                            <img class="img-fluid image" src="asset/img/website/bizrock.png">
+                                        <a class="lightbox" href="asset/img/website/bizrock.PNG">
+                                            <img class="img-fluid image" src="asset/img/website/bizrock.PNG">
                                             <span class="description">
                                                 <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -283,7 +283,7 @@
 
                             <div class="col-md-6 form-group">
                                 <div class="hovereffect">
-                                    <img class="img-fluid" src="asset/img/website/bizrock.png" >
+                                    <img class="img-fluid" src="asset/img/website/bizrock.PNG" >
 
                                     <div class="overlay">
                                         <h2>www.bizrock.co.in</h2>
@@ -294,7 +294,7 @@
 
                             <div class="col-md-6 form-group">
                                 <div class="hovereffect">
-                                    <img class="img-fluid" src="asset/img/website/attendance.png" >
+                                    <img class="img-fluid" src="asset/img/website/attendance.PNG" >
                                     <div class="overlay">
                                         <h2>www.bizrock.co.in</h2>
                                         <a class="info mybtn" href="http://bizrock.co.in/attendance/">View</a>
@@ -304,7 +304,7 @@
 
                             <div class="col-md-6 form-group">
                                 <div class="hovereffect">
-                                    <img class="img-fluid" src="asset/img/website/buyat.png" >
+                                    <img class="img-fluid" src="asset/img/website/buyat.PNG" >
                                     <div class="overlay">
                                         <h2>www.bizrock.co.in</h2>
                                         <a class="info mybtn" href="http://buyatatharva.com/">View</a>
@@ -313,7 +313,7 @@
                             </div>
                             <div class="col-md-6 form-group">
                                 <div class="hovereffect">
-                                    <img class="img-fluid" src="asset/img/website/cms.png" >
+                                    <img class="img-fluid" src="asset/img/website/cms.PNG" >
                                     <div class="overlay">
                                         <h2>www.bizrock.co.in</h2>
                                         <a class="info mybtn" href="http://buyatatharva.com/mlm/cms/add_slider.php">View</a>
@@ -322,7 +322,7 @@
                             </div>
                             <div class="col-md-6 form-group">
                                 <div class="hovereffect">
-                                    <img class="img-fluid" src="asset/img/website/bizrock.png" >
+                                    <img class="img-fluid" src="asset/img/website/bizrock.PNG" >
                                     <div class="overlay">
 
                                         <h2>www.bizrock.co.in</h2>
@@ -333,7 +333,7 @@
 
                             <div class="col-md-6 form-group">
                                 <div class="hovereffect">
-                                    <img class="img-fluid" src="asset/img/website/bizrock.png" >
+                                    <img class="img-fluid" src="asset/img/website/bizrock.PNG" >
                                     <div class="overlay">
                                         <h2>www.bizrock.co.in</h2>
                                         <a class="info mybtn" href="http://bizrock.co.in/">View</a>
@@ -343,7 +343,7 @@
 
                             <div class="col-md-6 form-group">
                                 <div class="hovereffect">
-                                    <img class="img-fluid" src="asset/img/website/bizrock.png" >
+                                    <img class="img-fluid" src="asset/img/website/bizrock.PNG" >
                                     <div class="overlay">
                                         <h2>www.bizrock.co.in</h2>
                                         <a class="info mybtn" href="http://bizrock.co.in/">View</a>
@@ -353,7 +353,7 @@
 
                             <div class="col-md-6 form-group">
                                 <div class="hovereffect">
-                                    <img class="img-fluid" src="asset/img/website/bizrock.png" >
+                                    <img class="img-fluid" src="asset/img/website/bizrock.PNG" >
                                     <div class="overlay">
                                         <h2>www.bizrock.co.in</h2>
                                         <a class="info mybtn" href="http://bizrock.co.in/">View</a>
@@ -398,7 +398,7 @@
                 <br>
                 <br>
                 <div class="container">
-                    <img src="asset/img/hero.png" class="img-fluid" ></div>
+                    <img src="asset/img/hero.PNG" class="img-fluid" ></div>
                     <div class="text-center text-white mybg" id="contact">
 
 
@@ -408,7 +408,7 @@
 
                             <br>
                             <br>
-                            <img src="asset/img/logo.png" class="img-fluid" width="100">
+                            <img src="asset/img/logo.PNG" class="img-fluid" width="100">
                             <br>
                             <br>
 
@@ -470,15 +470,14 @@
                 <div class="modal fade" id="myModal" >
                     <div class="modal-dialog">
                         <div class="modal-content" >
-                            <form action="contact.php" method="post">
+                            
 
                                 <div class="modal-header">
                                     <h4 class="modal-title">Contact Me</h4>
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 </div>
-
+                                    <form action="contact.php" method="post">
                                 <div class="modal-body">
-
                                     <div class="form-group">
                                         <label>Full Name <span style="color:red">*</span></label>
                                         <input type="text" class="form-control" name="name">

@@ -1,13 +1,33 @@
+<?php 
+include 'common/session.php';
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Collapsible sidebar using Bootstrap 4</title>
+<title>Admin Panel</title>
+    <link rel="icon" href="../asset/img/logo.ico">
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.18/datatables.min.css"/>
+<link rel="stylesheet" type="text/css" href="../asset/style.css">
+<script type="text/javascript">
+         function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('.blah')
+                        .attr('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+</script>
 
 <style type="text/css">
 	
@@ -183,7 +203,7 @@ color:white;
     width: 100%;
 }
 
-button{
+.btn{
 	background: #00FF00 !important;
 	color:black !important;
 	border-color: black !important;
@@ -213,21 +233,45 @@ outline:0 !important;
         display: none;
     }*/
 }
+
+
+form{
+    color:white;
+    text-align: center;
+}
+
+
+.form-control{
+    background: black;
+    outline: none;
+       color:white;
+       text-align: center;
+
+}
+
+.form-control:focus{
+    background: black;
+       outline: none;
+       box-shadow: none;
+       color:white;
+}
+
+
 </style>
 </head>
 <body>
 <div class="wrapper">
 <nav id="sidebar">
 <div class="sidebar-header">
-<img class="img-fluid" width="100" src="../asset/img/logo.png">
+<img class="img-fluid" width="100" src="../asset/img/logo.PNG">
 </div>
 <ul class="list-unstyled components">
 <li>
 <a href="#Designs" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Designs</a>
 <ul class="collapse list-unstyled" id="Designs">
-	<li><a href=""> Add</a></li>
+	<li><a href="design_add.php"> Add</a></li>
 	<li><a href=""> Update</a></li>
-	<li><a href=""> Delete</a></li>
+	<li><a href="design_view.php"> View</a></li>
 </ul>
 </li>
 <li>
@@ -257,7 +301,7 @@ outline:0 !important;
 <span>Toggle Sidebar</span>
 </button></a>
 
-<button class="btn btn-info ml-auto">Logout</button>
+<a href="common/logout.php" class="btn btn-info ml-auto">Logout</a>
 <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <span class="navbar-toggler-icon"></span>
 </button>
