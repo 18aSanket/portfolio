@@ -494,6 +494,10 @@
                                         <label>Phone Number <span style="color:red">*</span></label>
                                         <input type="text" class="form-control" name="number">
                                     </div>
+                                    <div class="form-group">
+                                        <label>Massage <span style="color:red">*</span></label>
+                                        <textarea name="msg" rows="3" class="form-control"></textarea>
+                                    </div>
 
 
                                 </div>
