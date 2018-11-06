@@ -255,6 +255,9 @@ form{
        box-shadow: none;
        color:white;
 }
+table,label,.dataTables_info{
+    color:white;
+}
 
 
 </style>

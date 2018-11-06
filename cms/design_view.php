@@ -11,6 +11,25 @@
 
 
 
+<div class="table-responsive container-fluid">
+
+<table  class="table" border="1" width="100%">
+    <thead>
+      <tr>
+        <th>Sr. No.</th>
+        <th>image</th>
+        <th>Details</th>
+        <th colspan="2">Action</th>
+      </tr>
+  </thead>
+
+
+  
+ </table>
+</div>
+
+
+
 
 
 
