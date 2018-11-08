@@ -20,8 +20,9 @@ figcaption{
 color:white !important;
 }
 
-
-
+.gallery-block.compact-gallery .item .description .description-body{
+  font-size: 20px ; 
+}
 
 #myVideo {
     position: fixed;
@@ -33,14 +34,8 @@ color:white !important;
     min-height: 100%;
     z-index: -5;
 }
-.card-footer{
-background: url('img/bg.jpg');
-background-size: cover;
 
-}
-.card-footer a{
-  color:white;
-}
+
 
 
 
@@ -88,18 +83,17 @@ padding-bottom:18%;
 
 .mybtn{
 background: linear-gradient(to right, #00FF00 50%, black 50%);
-border: 2px solid #00FF00;
-background-size: 200%;
+border: 2px solid #00FF00 !important;
+background-size: 210%;
 background-position: right;
-transition: all 1s;
+transition: all 2s;
 border-radius:50px;
 padding: 10px 40px;
 font-weight: bold;
 color:#00FF00;
 cursor: pointer;
 outline:0;
-
-
+box-shadow: none !important;
 
 }
 .mybtn:hover{
@@ -107,9 +101,14 @@ background-position: left;
 color:black;
 font-weight: bold;
 border: 2px solid black;
-
-
+box-shadow: 1px 1px 1px #00FF00 !important;
+outline:0;
 }
+
+button:focus{
+  outline: none !important;
+}
+
 
 .h1, .h2, .h3, .h4, .h5, .h6,h1, h2, h3, h4, h5, h6,label{
 margin: 0;

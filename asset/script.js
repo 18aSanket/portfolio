@@ -9,14 +9,6 @@ $(document).on('click', 'a[href^="#"]', function () {
 // navbar slide down on click end
 
 
-
-
-
-
-
-
-
-
 $(document).ready(function() {
 		$('.owl-carousel').owlCarousel({
 			loop: true,
@@ -37,7 +29,7 @@ $(document).ready(function() {
 				},
 				1000: 
 				{
-					items: 3
+					items: 5
 				}
 			}
 		});
