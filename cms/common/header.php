@@ -1,3 +1,4 @@
+<?php include 'session.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +29,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav ml-auto text-center">
       <li class="nav-item">
-        <a class="nav-link" href="Graphics.php">Graphics</a>
+        <a class="nav-link" href="graphics.php">Graphics</a>
       </li>
        
       <li class="nav-item">

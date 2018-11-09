@@ -144,7 +144,7 @@ a:hover{
 }
 
 
-#contact i{
+#contact a{
 color:white;
 margin: 20px 18px;
 font-size: 30px;
@@ -240,6 +240,11 @@ font-size: 30px;
   #home img,input{
     float: none !important;
   }
+
+#home h1 span{
+  display: none;
+}
+
   .websites{
       height: 320px !important;
 }
@@ -249,7 +254,7 @@ font-size: 30px;
   margin: 20px 0px;
  }
  #myself{
-  padding: 20% 0%;
+  padding: 5% 0%;
  }
 #skills{
   bottom: 0px;
@@ -261,8 +266,9 @@ border: none!important;
 }
 
 .form-group{
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
+
 
 .hovereffect a.info {
   margin:35px 0 0 0;
