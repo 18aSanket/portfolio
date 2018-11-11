@@ -1,4 +1,3 @@
-<?php include 'common/dbconfig.php'; ?>
 <?php include 'common/header.php'; ?>
 
 <div class="modal" id="myModal">
@@ -28,13 +27,21 @@
 <label>Details <span style="color:red">*</span></label>
 <input type="text" class="form-control" name="details">
 </div>
-
+</div>
+<div class="col-md-12 col-12">
 <div class="form-group">
 <label>Link <span style="color:red">*</span></label>
 <input type="text" class="form-control" name="link">
 </div>
-
 </div>
+
+<div class="col-md-12 col-12">
+<div class="form-group">
+<label>My Work <span style="color:red">*</span></label>
+<input type="text" class="form-control" name="work">
+</div>
+</div>
+
 </div>
 </div>
 
@@ -59,7 +66,8 @@
 <tr>
 <th>Sr. No.</th>
 <th>image</th>
-<th>Details</th>
+<th>Website</th>
+<th>My Work</th>
 <th>Link</th>
 <th >Update</th>
 <th >Delete</th>
@@ -74,6 +82,7 @@ $id=$fetch['id'];
 $img=$fetch['img'];
 $details=$fetch['details'];
 $link=$fetch['link'];
+$work=$fetch['work'];
 
 ?>
 
@@ -82,6 +91,7 @@ $link=$fetch['link'];
 <td><?php echo $i++ ?></td>
 <td><img src="../img/websites/<?php echo $img ?>" class="img-fluid" width="200"></td>
 <td><?php echo $details ?></td>
+<td><?php echo $work ?></td>
 <td><?php echo $link ?></td>
 <td><a href="websites_update.php?id=<?php echo $id ?>" class="btn btn-info">Update</a></td>
 <td>

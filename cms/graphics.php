@@ -1,4 +1,3 @@
-<?php include 'common/dbconfig.php'; ?>
 <?php include 'common/header.php'; ?>
 
 <div class="modal" id="myModal">
@@ -29,6 +28,16 @@
 <input type="text" class="form-control" name="details">
 </div>
 </div>
+
+<div class="col-md-12 col-12">
+<div class="form-group">
+<label>Code <span style="color:red">*</span></label>
+
+<input type="file" class="form-control" name="code">
+</div>
+</div>
+
+
 </div>
 </div>
 
@@ -54,6 +63,7 @@
 <th>Sr. No.</th>
 <th>image</th>
 <th>Details</th>
+<th>Code</th>
 <th >Update</th>
 <th >Delete</th>
 </tr>
@@ -61,12 +71,12 @@
 <tbody >
 <?php 
 $i=1;
-$sql=mysqli_query($conn,"SELECT * from graphics");
+$sql=mysqli_query($conn,"SELECT * from graphics ORDER BY id DESC");
 while ($fetch=mysqli_fetch_array($sql)) {
 $id=$fetch['id'];
 $img=$fetch['img'];
 $details=$fetch['details'];
-
+$code=$fetch['code'];
 ?>
 
 
@@ -74,6 +84,14 @@ $details=$fetch['details'];
 <td><?php echo $i++ ?></td>
 <td><img src="../img/graphics/<?php echo $img ?>" class="img-fluid" width="200"></td>
 <td><?php echo $details ?></td>
+<td>
+	<?php if ($code) { ?>
+	<a href="../img/graphics/code/<?php echo $code ?>" class="btn btn-primary" onclick="return confirm(' you want to download this file ?');" download>Download</a>
+
+<?php }else{?>&nbsp;
+<?php } ?>
+
+	</td>
 <td><a href="graphics_update.php?id=<?php echo $id ?>" class="btn btn-info">Update</a></td>
 <td>
 <a href="graphics_delete.php?id=<?php echo $id ?>" onclick="return confirm('Are you sure you want to delete this file ?');" class="btn btn-danger">Delete</a>

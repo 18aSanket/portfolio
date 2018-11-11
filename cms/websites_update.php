@@ -1,4 +1,3 @@
-<?php include 'common/dbconfig.php'; ?>
 <?php include 'common/header.php'; ?>
 
 <?php 
@@ -12,6 +11,7 @@ if (isset($_POST['btn']))
 {
 	$details=$_POST['details'];
 	$link=$_POST['link'];
+	$work=$_POST['work'];
 	if (!empty($_FILES['file']['name'])) 
 	{
 		$img=uniqid().'_'.$_FILES['file']['name'];
@@ -27,7 +27,7 @@ if (isset($_POST['btn']))
 		$img=$fetch['img'];
 	}
 
-	$sql=mysqli_query($conn,"UPDATE websites SET img='$img',details='$details',link='$link' where id='$id'");
+	$sql=mysqli_query($conn,"UPDATE websites SET img='$img',details='$details',link='$link',work='$work' where id='$id'");
 
 
 	if ($sql) 
@@ -62,25 +62,32 @@ if (isset($_POST['btn']))
 
 		<div class="row">
 
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<div class="form-group">
 					<label>Image <span style="color:red">*</span></label>
 
 					<input type="file" class="form-control" name="file" onchange="readURL(this);">
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 
 				<div class="form-group">
 					<label>Details <span style="color:red">*</span></label>
 					<input type="text" class="form-control" value="<?php echo $fetch['details'] ?>" name="details">
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 
 				<div class="form-group">
 					<label>Link <span style="color:red">*</span></label>
 					<input type="text" class="form-control" value="<?php echo $fetch['link'] ?>" name="link">
+				</div>
+			</div>
+			<div class="col-md-6">
+
+				<div class="form-group">
+					<label>My Work <span style="color:red">*</span></label>
+					<input type="text" class="form-control" value="<?php echo $fetch['work'] ?>" name="work">
 				</div>
 			</div>
 

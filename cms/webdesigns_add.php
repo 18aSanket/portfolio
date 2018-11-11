@@ -1,4 +1,3 @@
-<?php include 'common/dbconfig.php'; ?>
 <?php include 'common/header.php'; ?>
 
 

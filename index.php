@@ -92,12 +92,12 @@ echo "<script>window.location.href='index.php'</script>";
 
 <div class="mybg" id="myself">
 <h1 >Hi, I’m Sanket</h1>
-<p >Nice to meet you.</p>
+<p  class="mycolor">Nice to meet you.</p>
 <br>
 <h4>My career began in Edit Institude designing Website and Grahpics, and I’ve arrived as an all around Web designer working in Mariainfotech.</h4>
 <br>
 
-<p >I wonder what’s next...</p>
+<p class="mycolor">I wonder what’s next...</p>
 
 
 
@@ -246,15 +246,19 @@ any good developer can program in ANY language.</p>
 <h1 class="mycolor">My Recent Work</h1>
 <br>
 <div class="container">
-<p class="text-white h5">My career has taken a natural progression from client websites, to template clubs, to UI templates, to UX design, to complex analytical UX design.</p></div>
+<p class="text-white h5">My career has taken a natural progression from client websites, to template clubs, to UI templates, to UX design, to complex analytical UX design.</p>
+<P class="mycolor">Click on heading to see all and you can download codes</P>
+</div>
 <br>
 <br>
 <br>
+<br>
+<br>
 
 
 
 
-<figcaption  class="h4">- Graphics -</figcaption>
+<figcaption  class="h4"><a href="graphics_view_all.php" class="text-white">- Graphics -</a></figcaption>
 
 <section class="gallery-block compact-gallery">
 
@@ -271,11 +275,15 @@ $details=$fetch['details'];
 <div class="item zoom-on-hover" style="height:170px">
 <a class="lightbox" href="img/graphics/<?php echo $img ?>">
 <img class="img-fluid image" src="img/graphics/<?php echo $img ?>">
+
 <span class="description">
 <span class="description-body"><?php echo $details ?></span>
+
 </span>
 </a>
+
 </div>
+
 
 
 <?php } ?>
@@ -288,14 +296,15 @@ $details=$fetch['details'];
 <br>
 <br>
 <br>
+<br>
+<br>
 
-
-<figcaption  class="h4">- Websites -</figcaption> 
+<figcaption  class="h4"><a href="websites_view_all.php" class="text-white">- Websites -</a></figcaption> 
 <div class="container">
-<div class="row websites" style="height: 540px;overflow-y: scroll;">
+<div class="row">
 
 <?php 
-$sql=mysqli_query($conn,"SELECT * from websites ORDER BY id DESC");
+$sql=mysqli_query($conn,"SELECT * from websites ORDER BY id DESC limit 4");
 while ($fetch=mysqli_fetch_array($sql)) {
 $img=$fetch['img'];
 $details=$fetch['details'];
@@ -324,7 +333,9 @@ $link=$fetch['link'];
 <br>
 <br>
 <br>
-<figcaption  class="h4">- Web Designs -</figcaption>
+<br>
+<br>
+<figcaption  class="h4"><a href="websites_view_all.php" class="text-white">- Web Designs -</a></figcaption>
 <div class="owl-carousel" >
 
 <?php 
@@ -353,7 +364,8 @@ $details=$fetch['details'];
 </div>
 </div>
 <!-- ------------------------------------------------------------------- -->
-
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -392,6 +404,8 @@ $details=$fetch['details'];
 <h5 style="margin-top: 25px;">Design & Developed By <span href="#" class="mycolor">Sanket S. Agre.</span></h5>
 </div>
 </div>
+<br>
+<div class="text-center">This Website Design in <span class="mycolor">Bootstrap 4</span> and Developed in <span  class="mycolor">PHP.</span></div>
 </div>
 <br>
 </div>

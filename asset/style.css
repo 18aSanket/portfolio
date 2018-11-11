@@ -196,7 +196,7 @@ font-size: 30px;
   position: relative;
   font-size: 20px;
   padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
+  background: black;
   color: #00FF00;
 }
 
@@ -245,9 +245,6 @@ font-size: 30px;
   display: none;
 }
 
-  .websites{
-      height: 320px !important;
-}
 
  h1{
   font-size: 50px;

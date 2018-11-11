@@ -1,5 +1,4 @@
-<?php include 'session.php'; ?>
-<?php include 'dbconfig.php'; ?>
+<?php include 'cms/common/dbconfig.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,35 +16,30 @@
 <script type="text/javascript">
 
 </script>
-
-  <link rel="stylesheet" type="text/css" href="cms_asset/cms_style.css">
+  <link rel="stylesheet" type="text/css" href="cms/cms_asset/cms_style.css">
 </head>
 <body>
 
 <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
   <div class="container-fluid">
-  <a href="index.php"><img src="../img/logo.png" class="img-fluid" width="33px"></a>
+  <a href="index.php"><img src="img/logo.png" class="img-fluid" width="33px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav ml-auto text-center">
       <li class="nav-item">
-        <a class="nav-link" href="graphics.php">Graphics</a>
+        <a class="nav-link" href="graphics_view_all.php">Graphics</a>
       </li>
        
       <li class="nav-item">
-        <a class="nav-link" href="websites.php">Websites</a>
+        <a class="nav-link" href="websites_view_all.php">Websites</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="webdesigns.php">Web-Designs</a>
+        <a class="nav-link" href="webdesigns_view_all.php">Web-Designs</a>
       </li>
-          <li class="nav-item">
-       <a href="common/logout.php" class="btn btn-danger" onclick="return confirm('Are you sure you want logout ?');">Logout</a>
-      </li>
+          
     </ul>
   </div>
   </div> 
 </nav>
-
-

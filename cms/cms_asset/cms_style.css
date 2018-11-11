@@ -24,3 +24,9 @@ body{
       vertical-align: middle;
       text-align: center;
     }
+
+@media  (max-width: 768px) {
+footer .text-left,footer .text-right {
+  text-align: center !important;
+}
+}
