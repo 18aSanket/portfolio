@@ -335,7 +335,7 @@ $link=$fetch['link'];
 <br>
 <br>
 <br>
-<figcaption  class="h4"><a href="websites_view_all.php" class="text-white">- Web Designs -</a></figcaption>
+<figcaption  class="h4"><a href="webdesigns_view_all.php" class="text-white">- Web Designs -</a></figcaption>
 <div class="owl-carousel" >
 
 <?php 
