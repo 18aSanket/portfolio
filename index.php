@@ -71,7 +71,7 @@ echo "<script>window.location.href='index.php'</script>";
 
 <h1 class="mycolor">Web Designer <span>/</span> Web Developer</h1>
 <br>
-<p class="mycolor">I design and code beautifully simple things, and I love what I do.</p>
+<p class="text-white">I design and code beautifully simple things, and I love what I do.</p>
 <br>
 <br>
 <br>
